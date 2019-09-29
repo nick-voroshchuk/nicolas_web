@@ -1,0 +1,24 @@
+p.small{
+	font-family: Arial;
+}
+h1.name{
+	color: green;
+	font-family: Times New Roman;
+}
+div{
+	width: 80px;
+	height: 80px;
+	box-shadow: inset 0 0 10px; /*Параметри тіні, inset - внутрішня тінь */
+	background: url(android.png) 50% 50% no-repeat ; /*Фоновий малюнок, no-repeat - щоб не повторювався фон, 50% 50% - розташування малюнку */
+}
+p.a{
+	margin: 0;/*відступ*/
+	color: white;
+	background: red;
+	padding-left: 20px;/* відступ зліва*/
+	font: 60px Impact, sans-serif;/*параметри шрифту*/
+	position: relative;
+	white-space: nowrap;/*забороняємо перенос тексту*/
+	min-height: 100px;
+
+}
